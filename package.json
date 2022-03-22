@@ -1,0 +1,19 @@
+{
+  "name": "rocket-coffee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waltcoder/challenges-rocket-coffee.git"
+  },
+  "keywords": [],
+  "author": "Walt Johnsley Cerilus <waltcoder.dev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waltcoder/challenges-rocket-coffee/issues"
+  },
+  "homepage": "https://github.com/waltcoder/challenges-rocket-coffee#readme"
+}
