@@ -1,0 +1,114 @@
+:root {
+  --background: #000;
+  --text-color: #FFF;
+  --button: #8257E5;
+  --border: #29292E;
+  --border-menu-mobile: #A8A8B3;
+  --text-color-menu-mobile: #E1E1E6;
+}
+
+*{
+  box-sizing: border-box;
+   margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+  height: 100%;
+
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  line-height: 1.5;
+}
+
+body{
+  background: var(--background);
+  color: var(--text-color);
+
+
+  width: 100vw;
+  height: 100vh;
+
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.6rem;
+}
+
+header{
+  width: 100%;
+  background: var(--background);
+  border-bottom: 0.1px solid var(--border);
+  padding: 3.7rem 2.5rem 2.5rem 2.5rem;
+}
+
+.App__header-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App__main{
+  padding: 8.8rem 2.8rem 0rem 2.8rem;
+  text-align: center;
+}
+
+.App__main-section{
+  text-align: center;
+  margin-bottom: 9.8rem;
+}
+
+.App__main-section > h2{
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 8.8rem;
+}
+
+.App__main-section > button{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  text-transform: uppercase;
+
+  font-size: 1rem;
+
+  background-color: transparent;
+  color: var(--text-color);
+
+  border: 0.1rem solid var(--button);
+  border-radius: 0.5rem;
+
+  padding: 1rem 3rem;
+}
+
+.App__main-section-hero > h2{
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.App__main-section-hero > h2:last-of-type{
+  color: var(--button);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.05rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.rocket-coffee{
+  margin-top: 2.5rem;
+}
+
+.rocket-coffee  > img{
+  width: 390px;
+  text-align: center;
+}
+
+.blur{
+  position: fixed;
+  bottom: -10rem;
+  z-index: -1;
+  text-align: center;
+}
+
